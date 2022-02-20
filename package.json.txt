@@ -1,0 +1,31 @@
+{
+    "name": "com.dracon.core",
+    "displayName": "Dracon Core",
+    "version": "0.0.1",
+    "unity": "2019.1",
+    "description": "Core functionality for optional input into new projects",
+    "keywords": [
+      "input",
+      "interaction",
+      "vr",
+      "unity"
+    ],
+    "samples": [
+      {
+        "displayName": "Players",
+        "description": "Prebuilt player prefabs",
+        "path": "Samples~/Players"
+      },
+      {
+        "displayName": "Scenes",
+        "description": "Scene templates",
+        "path": "Samples~/Scenes"
+      }
+    ],
+    "author": {
+      "name": "Dracon Interactive",
+      "email": "draconinteractive@gmail.com",
+      "url": "http://www.draconinteractive.com.au"
+    },
+    "category": "Unity"
+  }

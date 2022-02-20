@@ -1,0 +1,18 @@
+{
+    "name": "Dracon.Core",
+    "rootNamespace": "Dracon.Core",
+    "references": [
+        "Unity.TextMeshPro",
+        "Facebook.WitAI",
+        "Dracon.VR.Interaction"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
