@@ -10,31 +10,10 @@
       "vr",
       "unity"
     ],
-    "samples": [
-      {
-        "displayName": "Players",
-        "description": "Prebuilt player prefabs",
-        "path": "Samples~/Players"
-      },
-      {
-        "displayName": "Scenes",
-        "description": "Scene templates",
-        "path": "Samples~/Scenes"
-      }
-    ],
     "author": {
       "name": "Dracon Interactive",
       "email": "draconinteractive@gmail.com",
       "url": "http://www.draconinteractive.com.au"
-    },
-    "files": [
-      "*.cs",
-      "*.md",
-      "*.meta",
-      "*.asmdef",
-      "*.unitypackage",
-      "Samples~",
-      "Editor"
-    ],
+    }.
     "category": "Unity"
   }
