@@ -20,7 +20,11 @@
       "*.md",
       "*.meta",
       "*.asmdef",
-      "Editor"
+      "Editor",
+      "Modules",
+      "Modules/Players",
+      "Modules/Scenes",
+      "Scripts"
     ],
     "category": "Unity"
   }
