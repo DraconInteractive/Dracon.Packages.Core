@@ -15,5 +15,11 @@
       "email": "draconinteractive@gmail.com",
       "url": "http://www.draconinteractive.com.au"
     },
+    "files": [
+      "*.md",
+      "*.meta",
+      "*.asmdef",
+      "Editor"
+    ],
     "category": "Unity"
   }
