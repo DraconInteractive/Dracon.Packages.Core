@@ -28,6 +28,7 @@
       "url": "http://www.draconinteractive.com.au"
     },
 	"files": [
+		"*.cs",
 		"*.md",
 		"*.meta",
 		"*.asmdef",
