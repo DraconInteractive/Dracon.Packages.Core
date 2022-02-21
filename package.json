@@ -1,7 +1,7 @@
 {
     "name": "com.dracon.core",
     "displayName": "Dracon Core",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "unity": "2019.1",
     "description": "Core functionality for optional input into new projects",
     "keywords": [
@@ -15,6 +15,13 @@
       "email": "draconinteractive@gmail.com",
       "url": "http://www.draconinteractive.com.au"
     },
+    "samples": [
+      {
+        "displayName": "Modules",
+        "description": "Unity packages for modular content",
+        "path": "Samples~/"
+      }
+    ],
     "files": [
       "*.cs",
       "*.md",
@@ -22,9 +29,7 @@
       "*.asmdef",
       "*.unitypackage",
       "Editor",
-      "Modules",
-      "Modules/Players",
-      "Modules/Scenes",
+      "Samples~",
       "Runtime"
     ],
     "category": "Unity"
