@@ -19,7 +19,7 @@
       {
         "displayName": "Modules",
         "description": "Unity packages for modular content",
-        "path": "Samples~/"
+        "path": "Samples~/Modules/"
       }
     ],
     "files": [
@@ -30,6 +30,7 @@
       "*.unitypackage",
       "Editor",
       "Samples~",
+      "Samples~/Modules",
       "Runtime"
     ],
     "category": "Unity"
