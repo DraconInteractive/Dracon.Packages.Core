@@ -20,6 +20,7 @@
       "*.md",
       "*.meta",
       "*.asmdef",
+      "*.unitypackage",
       "Editor",
       "Modules",
       "Modules/Players",
