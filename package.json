@@ -27,14 +27,14 @@
       "email": "draconinteractive@gmail.com",
       "url": "http://www.draconinteractive.com.au"
     },
-	"files": [
-		"*.cs",
-		"*.md",
-		"*.meta",
-		"*.asmdef",
-		"*.unitypackage",
-		"Samples~",
-		"Editor"
-	],
+    "files": [
+      "*.cs",
+      "*.md",
+      "*.meta",
+      "*.asmdef",
+      "*.unitypackage",
+      "Samples~",
+      "Editor"
+    ],
     "category": "Unity"
   }
