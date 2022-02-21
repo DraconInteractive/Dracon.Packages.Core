@@ -25,7 +25,7 @@
       "Modules",
       "Modules/Players",
       "Modules/Scenes",
-      "Scripts"
+      "Runtime"
     ],
     "category": "Unity"
   }
