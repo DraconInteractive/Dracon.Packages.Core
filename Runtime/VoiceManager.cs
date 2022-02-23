@@ -2,14 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Facebook.WitAi.Data;
-using Facebook.WitAi.Lib;
-using Facebook.WitAi;
-using Facebook.WitAi.Data.Traits;
+
 using UnityEngine.Events;
 using System.Linq;
 
 #if WIT
+
+using Facebook.WitAi.Data;
+using Facebook.WitAi.Lib;
+using Facebook.WitAi;
+using Facebook.WitAi.Data.Traits;
 
 namespace Dracon.Core.Voice
 {
