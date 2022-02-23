@@ -4,7 +4,8 @@
     "references": [
         "Unity.TextMeshPro",
         "Facebook.WitAI",
-        "Dracon.VR.Interaction"
+        "Dracon.VR.Interaction",
+        "HexabodyVR
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
