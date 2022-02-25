@@ -95,18 +95,20 @@ namespace Dracon.Core
 
             var env = environments.FirstOrDefault(x => x.name == activeEnvironment);
 #if HEXA
-            var hexa = ReferenceManager.Instance.hexa;
-            hexa.MoveToPosition_NoHands(env.playerSpawn.position);
-            hexa.FaceDirection(env.playerSpawn.rotation * Vector3.forward);
+            if (env != null) 
+            {
+                HexaRef.Instance.MoveToPosition_NoHands(env.playerSpawn.position);
+                HexaRef.Instance.FaceDirection(env.playerSpawn.rotation * Vector3.forward);
+            }           
 #endif
-
-
 
             GlobalFade.Instance.SetTarget(0);
             yield return new WaitForSeconds(GlobalFade.Duration);
             loadRoutine = null;
             yield break;
         }
+
+
     }
 }
 

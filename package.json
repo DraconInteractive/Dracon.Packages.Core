@@ -1,7 +1,7 @@
 {
     "name": "com.dracon.core",
     "displayName": "Dracon Core",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "unity": "2019.1",
     "description": "Core functionality for optional input into new projects",
     "keywords": [
@@ -20,6 +20,11 @@
         "displayName": "Modules",
         "description": "Unity packages for modular content",
         "path": "Samples~/Modules/"
+      },
+      {
+        "displayName": "Hexa Prerequisites",
+        "description": "Scripts required for HexaVR integration",
+        "path": "Samples~/Hexa_Prerequisites"
       }
     ],
     "files": [
@@ -31,6 +36,7 @@
       "Editor",
       "Samples~",
       "Samples~/Modules",
+      "Samples~/Hexa_Prerequisites",
       "Runtime"
     ],
     "category": "Unity"

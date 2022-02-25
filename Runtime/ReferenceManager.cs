@@ -13,9 +13,6 @@ namespace Dracon.Core
         [Header("Player")]
         public Transform playerHead;
         public Transform leftHand, rightHand;
-#if HEXA
-    public HexabodyVR.PlayerController.HexaBodyPlayer3 hexa;
-#endif
 
 #if WIT
     [Header("Voice")]
