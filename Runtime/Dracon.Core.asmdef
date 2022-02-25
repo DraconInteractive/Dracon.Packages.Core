@@ -5,7 +5,7 @@
         "Unity.TextMeshPro",
         "Facebook.WitAI",
         "Dracon.VR.Interaction",
-        "HexabodyVR.PlayerController"
+	"Dracon.Core.HexaReference"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
