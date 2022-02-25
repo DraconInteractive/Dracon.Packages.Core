@@ -1,3 +1,6 @@
 {
-	"name": "Dracon.Core.HexaReference"
+	"name": "Dracon.Core.HexaReference",
+    	"references": [
+        	"HexaBodyVR"
+    	]
 }
