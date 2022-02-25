@@ -8,8 +8,6 @@ namespace Dracon.Core
     {
         public static ReferenceManager Instance { get; private set; }
 
-        public PrefabReferences prefabReferences;
-
         [Header("Player")]
         public Transform playerHead;
         public Transform leftHand, rightHand;
