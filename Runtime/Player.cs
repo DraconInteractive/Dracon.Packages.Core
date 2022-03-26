@@ -11,7 +11,7 @@ namespace Dracon.Core.Player
         public static Player Instance;
         InteractionsManager iManager;
         
-        public List<BaseModule<Player>> modules = new List<BaseModule<Player>>();
+        public List<BaseModule> modules = new List<BaseModule>();
         // Start is called before the first frame update
         void Awake()
         {
