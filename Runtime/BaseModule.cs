@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Dracon.Core
 {
-    public class BaseModule<T> : MonoBehaviour
+    public class BaseModule : MonoBehaviour
     {
         public virtual void StartEx()
         {
