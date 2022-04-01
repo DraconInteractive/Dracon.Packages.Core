@@ -81,7 +81,7 @@ namespace Dracon.Core
                     yield return null;
                 }
             }
-
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName("Bootstrap"));
             activeEnvironment = scene;
 
             AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(scene, LoadSceneMode.Additive);
@@ -89,7 +89,8 @@ namespace Dracon.Core
             {
                 yield return null;
             }
-
+            
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene));
             Loading = false;
             yield return null;
 
